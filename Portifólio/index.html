@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <title>Portifólio | Lucas Emanuel</title>
 </head>
@@ -12,79 +12,77 @@
 <body>
 
     <header class="cabecalho">
-        <h1>Portifólio de Lucas Emanuel</h1>
-        <nav class="navegaçao">
+        <img src="img/logo.png" alt="Logo de Lucas Emanuel" class="logo">
+        <h1 class="cabecalho-h1">Portifólio de Lucas Emanuel</h1>
+        <ul class="menu">
+            <li><a href="#inicio" class="menu-link">Inicio</a></li>
+            <li><a href="#sobre" class="menu-link">Sobre Mim</a></li>
+            <li><a href="#projetos" class="menu-link">Projetos</a></li>
+            <li><a href="#contato" class="menu-link">Contato</a></li>
+        </ul>
 
-            <img src="img/logo.png" alt="Logo de Lucas Emanuel" class="logo">
-            <ul class="menu">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobre">Sobre Mim</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
     </header>
+    <nav class="navegaçao">
 
-
-    <main class="inicio" id="inicio">
-        <div class="inicio-caixa">
-            <h1 class="inicio-titulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati totam</h1>
-            <p class="inicio-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum magni quos obcaecati
-                cupiditate. Laudantium aperiam accusantium ipsa velit iste sequi quia. Quae asperiores voluptates et
-                quas accusantium eos dolorum voluptas!</p>
-        </div>
-    </main>
-
-    <article class="apresentaçao">
-        <section class="sobre-mim" id="sobre">
-            <h2 class="sobre-mim-titulo">Sobre Mim</h2>
-            <p class="sobre-mim-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore qui possimus quia
-                quo consequuntur eveniet amet quam odit perspiciatis ea quis, rerum nemo commodi cumque porro molestiae
-                voluptatum labore pariatur!</p>
-        </section>
-
-        <section class="projetos" id="projetos">
-            <h2 class="projetos-titulo">Projetos</h2>
-            <div class="projeto-item">
-                <h3 class="projeto-item-titulo">Projeto 1</h3>
-                <p class="projeto-item-p">Descrição do Projeto 1</p>
+        <main class="inicio" id="inicio">
+            <div class="inicio-caixa">
+                <h1 class="inicio-titulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati totam</h1>
+                <p class="inicio-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum magni quos obcaecati
+                    cupiditate. Laudantium aperiam accusantium ipsa velit iste sequi quia. Quae asperiores voluptates et
+                    quas accusantium eos dolorum voluptas!</p>
             </div>
-            <div class="projeto-item">
-                <h3 class="projeto-item-titulo">Projeto 2</h3>
-                <p class="projeto-item-p">Descrição do Projeto 2</p>
-            </div>
-        </section>
+        </main>
 
-        <section class="contato" id="contato">
-            <h2 class="contato-titulo">Contato</h2>
-            <form class="contato-form">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
+        <article class="apresentaçao">
+            <section class="sobre-mim" id="sobre">
+                <h2 class="sobre-mim-titulo">Sobre Mim</h2>
+                <p class="sobre-mim-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore qui possimus
+                    quia
+                    quo consequuntur eveniet amet quam odit perspiciatis ea quis, rerum nemo commodi cumque porro
+                    molestiae
+                    voluptatum labore pariatur!</p>
+            </section>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+            <section class="projetos" id="projetos">
+                <h2 class="projetos-titulo">Projetos</h2>
+                <div class="projeto-card">
+                    <h3 class="projeto-card-titulo">Projeto 1</h3>
+                    <p class="projeto-card-p">Descrição do Projeto 1</p>
+                </div>
+                <div class="projeto-card">
+                    <h3 class="projeto-card-titulo">Projeto 2</h3>
+                    <p class="projeto-card-p">Descrição do Projeto 2</p>
+                </div>
+            </section>
 
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" required></textarea>
+            <section class="contato" id="contato">
+                <h2 class="contato-titulo">Contato</h2>
+                <form class="contato-form">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
 
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-    </article>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
 
-    <aside class="aparte">
-        <h2>Redes Sociais</h2>
-        <ul class="redes-sociais">
-            <li><a href="https://www.linkedin.com/in/lucasemanuel" target="_blank">LinkedIn</a></li>
-            <li><a href="https://github.com/lucasemanuel" target="_blank">GitHub</a></li>
-    </aside>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
 
-    <footer class="rodape">
-        <p>&copy; 2024 Lucas Emanuel. Todos os direitos reservados.</p>
-    </footer>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </article>
 
+        <aside class="aparte">
+            <h2>Redes Sociais</h2>
+            <ul class="redes-sociais">
+                <li><a href="https://www.linkedin.com/in/lucasemanuel" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/lucasemanueldamata" target="_blank">GitHub</a></li>
+        </aside>
 
-
+        <footer class="rodape">
+            <p class="rodape-p">&copy; 2024 Lucas Emanuel. Todos os direitos reservados.</p>
+        </footer>
+    </nav>
 </body>
 
 </html>
