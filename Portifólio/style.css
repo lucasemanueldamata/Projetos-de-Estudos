@@ -6,3 +6,154 @@
 	box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #041122;
+    color: #e2e8f0;
+}
+
+:root {
+    /* CORES P1 */
+    --primariaP1: #7FDA89;
+    --secundariaP1: #C8E98E;
+    --escuroP1: #259073;
+    --maisEscuroP1: #041122;
+    --claroP1: #E6F99D;
+
+    /* CORES P2 */
+    --primariaP2: #008C9E;
+    --secundariaP2: #00B4CC;
+    --escuroP2: #005F6B;
+    --maisEscuroP2: #343838;
+    --claroP2: #00DffC;
+
+    /* CORES BASE */
+    --maisClaro: #e2e8f0;
+    --vidro: rgba(255, 255, 255, 0.1);
+}
+
+.cabecalho {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: var(--maisEscuroP2);
+    margin-bottom: 50px;
+    height: 65px;
+}
+
+.cabecalho-logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+}
+
+.cabecalho-h1 {
+    
+}
+
+.navegacao {
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.menu-link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon-buscar {
+    width: 40px;
+    height: 40px;
+}
+
+.inicio {
+
+}
+
+.inicio-caixa {
+    
+}
+
+.inicio-titulo {
+
+}
+
+.inicio-p {
+
+}
+
+.apresentacao {
+
+}
+
+.sobre-mim {
+
+}
+
+.sobre-mim-titulo {
+    
+}
+
+.sobre-mim-p {
+
+}
+
+.projetos {
+
+}
+
+.projetos-titulo {
+
+}
+
+.projetos-card {
+
+}
+
+.projetos-card-titulo {
+
+}
+
+.projetos-card-p {
+
+}
+
+.contato {
+
+}
+
+.contato-titulo {
+
+}
+
+.contato-form {
+
+}
+
+.aparte {
+
+}
+
+.redes-sociais {
+
+}
+
+.rodape {
+
+}
+
+.rodape-p {
+    
+}
